@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <title>Mika Pikazo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/portfolio/style/base.css">
+        <link rel="stylesheet" href="./assets/main/style/main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="background">
+                <div class="backgroundoverlay">
+                    <img src="./assets/main/img/ShimmeringBubbles_5.jpg">
+                </div>
+            </div>
+            <div class="menu-icon">
+                <button id="js-navtrigger" class="navtrigger" data-status="navclosed"> 
+                    <svg width="44px" height="44px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 8.25H4.5V6.75H19.5V8.25Z" fill="#080341"></path> 
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 12.75H4.5V11.25H19.5V12.75Z" fill="#080341"></path> 
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 17.25H4.5V15.75H19.5V17.25Z" fill="#080341"></path>
+                    </svg> 
+                </button>
+                <button id="js-navclose" class="navclose" data-status="navclosed">
+                    <svg width="44px" height="44px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z" fill="#0F0F0F"></path>
+                    </svg>
+                </button>
+                </div>
+            <nav class="nav">
+                <ul>
+                    <li class="navbar1">
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li class="navbar2">
+                        <a href="./portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li class="navbar3">
+                        <a href="./commission.html">COMMISSIONS</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="comm">
+                <h1 class="comm-text">PORTFOLIO</h1>
+            </div>
+
+            <div class="display">
+                <div class="column">
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/kimono.jpg" onclick="openModal();currentSlide(1)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/lily.jpg" onclick="openModal();currentSlide(3)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/polka.png" onclick="openModal();currentSlide(5)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/hangout.png" onclick="openModal();currentSlide(7)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/racoon.png" onclick="openModal();currentSlide(9)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/ily.png" onclick="openModal();currentSlide(11)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/startend.png" onclick="openModal();currentSlide(13)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/chad.png" onclick="openModal();currentSlide(15)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/rat.png" onclick="openModal();currentSlide(17)">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/gate.jpg" onclick="openModal();currentSlide(2)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/nezupoyo.jpg" onclick="openModal();currentSlide(4)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/cat.jpg" onclick="openModal();currentSlide(6)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/gaze.png" onclick="openModal();currentSlide(8)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/fox.png" onclick="openModal();currentSlide(10)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/parade.png" onclick="openModal();currentSlide(12)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/id.png" onclick="openModal();currentSlide(14)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/pkmk.png" onclick="openModal();currentSlide(16)">
+                    </div>
+                    <div class="display-item">
+                        <img src="./assets/portfolio/img/apex.png" onclick="openModal();currentSlide(18)">
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                <div class="mySlides">
+                    <img src="./assets/portfolio/img/kimono.jpg" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/gate.jpg" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/lily.jpg" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/nezupoyo.jpg" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/polka.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/cat.jpg" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/hangout.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/gaze.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/racoon.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/fox.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/ily.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/parade.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/startend.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/id.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/chad.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/pkmk.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/rat.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/apex.png" style="width:100%">
+                 </div>
+                 <div class="mySlides">
+                    <img src="./assets/portfolio/img/revenge.png" style="width:100%">
+                 </div>
+                </div>
+            </div>
+            <div class="content">
+                <ul class="content-socials" >
+                    <li class="content-socials-child">
+                        <a href="https://www.pixiv.net/en/users/1039353/">
+                            <div class="icon">
+                                <svg width="36px" height="36px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.935 0A4.924 4.924 0 0 0 0 4.935v14.13A4.924 4.924 0 0 0 4.935 24h14.13A4.924 4.924 0 0 0 24 19.065V4.935A4.924 4.924 0 0 0 19.065 0zm7.81 4.547c2.181 0 4.058.676 5.399 1.847a6.118 6.118 0 0 1 2.116 4.66c.005 1.854-.88 3.476-2.257 4.563-1.375 1.092-3.225 1.697-5.258 1.697-2.314 0-4.46-.842-4.46-.842v2.718c.397.116 1.048.365.635.779H5.79c-.41-.41.19-.65.644-.779V7.666c-1.053.81-1.593 1.51-1.868 2.031.32 1.02-.284.969-.284.969l-1.09-1.73s3.868-4.39 9.553-4.39zm-.19.971c-1.423-.003-3.184.473-4.27 1.244v8.646c.988.487 2.484.832 4.26.832h.01c1.596 0 2.98-.593 3.93-1.533.952-.948 1.486-2.183 1.492-3.683-.005-1.54-.504-2.864-1.42-3.86-.918-.992-2.274-1.645-4.002-1.646Z"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="content-socials-child">
+                        <a href="https://www.twitter.com/MikaPikaZo/">
+                            <div class="icon">
+                                <svg width="36px" height="36px" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.5186 10.7714L19.3439 4H17.9635L12.9054 9.87954L8.86547 4H4.20593L10.315 12.8909L4.20593 19.9918H5.58642L10.9279 13.7828L15.1943 19.9918H19.8539L13.5182 10.7714H13.5186ZM11.6278 12.9692L11.0088 12.0839L6.08383 5.03921H8.20417L12.1787 10.7245L12.7977 11.6098L17.9641 18.9998H15.8438L11.6278 12.9696V12.9692Z"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="content-socials-child">
+                        <a href="https://www.instagram.com/mika_pikazo_mpz/">
+                            <div class="icon">
+                                <svg width="36px" height="36px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#0F0F0F"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#0F0F0F"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#0F0F0F"></path>
+                            </svg>   
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="./assets/portfolio/js/base.js"></script>
+    </body>
+</html>
